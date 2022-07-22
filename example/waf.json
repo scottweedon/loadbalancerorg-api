@@ -1,0 +1,17 @@
+{
+    "version": 1.0,
+    "method": "manual",
+    "parameters": [],
+    "config": {
+        "wafs": [
+            {
+              "waf": "test waf",
+              "vip": "api"
+            },
+            {
+              "waf": "test waf2",
+              "vip": "https"
+            }
+        ]
+    }
+}

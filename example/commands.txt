@@ -1,0 +1,26 @@
+
+haproxy-clear-stick
+
+  lockdown
+
+   ha_create
+
+   hostname
+
+    dns
+
+    mtu
+
+    route
+
+address - lbcli --action address --function get|add|del|flush --interface <Interface> --address <192.168.100.100/18 or 2001:470:68a4::10/48> --cidr <0-32 ipv4> or <64-112 ipv6>
+
+lbcli --action power --function <shutdown|restart>
+
+lbcli --action support-download
+
+lbcli --action api
+--function <enable:disable|get>
+--username <username>
+--password <password>
+--apikey <apikey>
